@@ -1,0 +1,82 @@
+\documentclass[12pt,a4paper,german]{article}
+\usepackage{url}
+%\usepackage{graphics}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{paralist}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\geometry{left=2.0cm,textwidth=17cm,top=3.5cm,textheight=23cm}
+
+\renewcommand{\thesection}{\arabic{section}.} %Nummerierung der Sections anpassen
+\renewcommand{\labelenumi}{\alph{enumi})}  %Nummerierung der Listen anpassen
+
+%%%%%%%%%% Fill out the the definitions %%%%%%%%%
+\def \name {Florian Becker}					%
+\def \matrikel {108019206650}				%
+\def \uebung {1}								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ % DO NOT MODIFY THIS HEADER
+\newcommand{\hwsol}{
+\vspace*{-2cm}
+\noindent \matrikel \quad \name \hfill \\
+\begin{center}{\Large \bf Lösung für Übung \uebung}\end{center}
+}
+
+\begin{document}
+
+%Import header
+\hwsol
+
+\section{Task}
+\begin{enumerate}
+    \item
+          \begin{enumerate}[label=(\arabic*)]
+              \item \(10111.1101_{2} = (2^4+2^2+2^1+2^0+2^{-1}+2^{-2}+2^{-4})_{10} = 23.8125_{10}\)
+              \item \(26.8_{16} = (2*16^1+8*16^0+8*16^{-1})_{10} = 38.5_{10}\)
+              \item \(45.37_{8} = (4*8^1+5*8^0+3*8^{-1}+7*8^{-2})_{10} = 37.484375_{10}\)
+              \item \(DA1DA.CB_{16} = (13*16^4+10*16^3+1*16^2+13*16^1+10*16^0+12*16^{-1}+11*16^{-2})_{10} = 893402.79296875_{10}\)
+              \item \(1.110010_{2} = (2^4+2^2+2^1+2^0+2^{-1}+2^{-2}+2^{-4})_{10} = 23.8125_{10}\)
+              \item \(3FFF_{16} = (3*16^3+15*16^2+15*16^1+15*16^0)_{10} = 16383\)
+          \end{enumerate}
+
+    \item \(27.315_{10} = 11011.0101_2 = 33.2412_8 = 1B.50A3\)
+    \item \begin{enumerate}[label=(\arabic*)]
+              \item \(14_6 \div 2_6 = 5_6\)
+              \item \(24_{11} + 17_{11} = 40_{11}\)
+          \end{enumerate}
+\end{enumerate}
+
+
+\section{Task}
+\begin{enumerate}
+    \item \begin{tabular}[h]{lcr}
+              Number   & 1's complement       & 2's complement \\
+              00010000 & 11101111             & 11110000       \\
+              00000000 & 11111111 or 00000000 & 00000000       \\
+              10101010 & 01010101             & 01010110       \\
+          \end{tabular}
+\end{enumerate}
+
+\section{Task}
+\begin{enumerate}
+    \item
+    \item 1000100 = D\\
+          1001001 = I\\
+          1000111 = G\\
+          1001001 = I\\
+          1010100 = T\\
+          1000001 = A\\
+          1001100 = L
+\end{enumerate}
+
+
+\end{document}
